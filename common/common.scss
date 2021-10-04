@@ -58,34 +58,6 @@
     color: #bbb;
     text-align: center;
 	}
-  // .first-box {
-  //   max-width: 20%;
-  //   .heading {
-  //     font-size: $font-up-2;
-  //     font-weight: bold;
-  //     margin-bottom: 0.5em;
-  //     display: block;
-  //   }
-  //   .blurb {
-  //     color: var(--secondary-high);
-  //   }
-  // }
-  // .second-box {
-  //   flex: 1;
-  //   .links {
-  //     display: flex;
-  //     flex-wrap: wrap;
-  //     justify-content: flex-end;
-  //     ul {
-  //       list-style: none;
-  //       margin: 0;
-  //       min-width: 100px;
-  //     }
-  //     li {
-  //       margin: 0.5em 0;
-  //     }
-  //   }
-  // }
   .third-box {
     width: 100%;
     display: flex;
@@ -185,10 +157,24 @@
 }
 
 @media screen and (max-width: 700px) {
+	/* For mobile phones */
   .custom-footer {
     .first-box {
       width: 100%;
     }
+		.ft-company-box {
+      flex-direction: column;
+    }
+    .ft-legal-box {
+      text-align: center;
+      flex-direction: column;
+    }
+		.ft-company-logo {
+			flex: 1;
+		}
+		.ft-company-social {
+			flex: 1;
+		}
     // .list {
     //   margin-top: 1em;
     //   display: inline-block;
