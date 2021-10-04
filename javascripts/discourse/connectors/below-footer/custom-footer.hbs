@@ -1,28 +1,50 @@
 {{#if showFooter}}
   <div class="wrap">
     <div class="flexbox">
-      <div class="first-box">
-        <div class="heading">
+      <div class="ft-company-box">
+        <div class="ft-company-logo">
 					<img src="{{logoURL}}" alt="logo">
         </div>
-				<div class="social">
+				<div class="ft-company-social">
           {{#each socialLinks as |link|}}
             <a class="social-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{d-icon link.icon}}</a>
           {{/each}}
         </div>
       </div>
-      <div class="third-box">
-        <div class="footer-links">
+      <div class="ft-company-legal">
+        <div class="legal-links">
           {{#each smallLinks as |link|}}
             <a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{link.text}}</a>
           {{/each}}
         </div>
       </div>
-			<div class="third-box">
+			<div class="ft-sharewoods-box">
 				<div style="text-align:center;color:grey;width:100%;font-size:18px;margin-top:20px">
 					Powered by Sharewoods
 				</div>
 			</div>
+			<!--
+			<div class="ft-company-box">
+				<div class="ft-company-logo">
+					<img src="{{logoURL}}" alt="logo">
+				</div>
+				<div class="ft-company-social-links">
+					{{#each socialLinks as |link|}}
+						<a class="social-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{d-icon link.icon}}</a>
+					{{/each}}
+				</div>
+			</div>
+
+			<div class="ft-legal-box">
+				{{#each smallLinks as |link|}}
+					<a class="small-link {{link.className}}" title="{{link.title}}" target="{{link.target}}" href="{{link.href}}">{{link.text}}</a>
+				{{/each}}
+			</div>
+
+			<div class="ft-sharewoods-box">
+				Powered by Sharewoods
+			</div>
+			-->
     </div>
   </div>
 {{/if}}
