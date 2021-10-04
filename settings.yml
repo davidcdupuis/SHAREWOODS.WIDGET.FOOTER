@@ -9,7 +9,7 @@ Heading:
   description:
     en: "Text for the heading in the footer - you can use your site name for example - Max length 25 characters"
 Description:
-  default: "Ius vitae ornatus at, ei mea sumo quot dicant. Ei tale democritum eos, in mea timeam accumsan forensibus. Ei his aperiam suavitate. Et debitis convenire sea, viris dictas latine."
+  default: "Descriptive text..."
   max: 180
   description:
     en: "Enter a short description about your community - Max length 180 characters"
