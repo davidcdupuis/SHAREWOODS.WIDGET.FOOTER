@@ -4,7 +4,7 @@ import { wantsNewWindow } from "discourse/lib/intercept-click";
 import DiscourseURL from "discourse/lib/url";
 
 export default {
-  name: "discourse-custom-header-links",
+  name: "sharewoods-custom-footer",
 
   initialize() {
     withPluginApi("0.8.20", (api) => {

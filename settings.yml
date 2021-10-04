@@ -2,6 +2,7 @@ Logo:
   default: "https://enertime.sharewoods.io/uploads/default/original/1X/23cf96716c72e567a54d944c5376089ae6efe1b3.svg"
   description:
     en: "Enter the URL of the logo you wish to use."
+    fr: "Entrez l'URL du logo de la société"
 Heading:
   default: "This is a header"
   max: 25
