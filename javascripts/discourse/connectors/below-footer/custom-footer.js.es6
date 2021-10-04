@@ -93,7 +93,8 @@ export default {
         blurb: settings.Blurb,
         // linkSections: sectionsArray,
         smallLinks: smallLinksArray,
-        socialLinks: socialLinksArray
+        socialLinks: socialLinksArray,
+				logoURL: settings.logo
       });
     } catch (error) {
       console.error(error);
