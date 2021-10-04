@@ -94,7 +94,7 @@ export default {
         // linkSections: sectionsArray,
         smallLinks: smallLinksArray,
         socialLinks: socialLinksArray,
-				logoURL: settings.logo
+				logoURL: settings.Logo
       });
     } catch (error) {
       console.error(error);
