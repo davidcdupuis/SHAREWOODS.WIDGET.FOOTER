@@ -17,6 +17,9 @@
 		border-bottom: 1px solid rgba(var(--primary-low-rgb), 0.05);
 		.ft-company-logo{
 			flex:2;
+			img{
+				max-width: 200px;
+			}
 		}
 		.ft-company-social{
       flex:1;
